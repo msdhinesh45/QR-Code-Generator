@@ -1,7 +1,7 @@
 // index.js
 const QRCode = require('qrcode');
 
-const data = `https://github.com/msdhinesh45`;
+const data = `https://msdhinesh-portfolio.vercel.app/`;
 
 // Generate QR Code and print in console
 QRCode.toString(data,{type:'terminal'},function(err,url){
